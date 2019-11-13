@@ -20,9 +20,6 @@ int main()
     //Also, store largest and smallest numbers entered into correct variable
     while (num != -99)
     {
-        cout << "Enter another integer (or -99 to quit): ";
-        cin >> num;
-        
         if ((num >= largest) && (num != -99))
         {
            largest = num; 
@@ -31,6 +28,9 @@ int main()
         {
             smallest = num;
         }
+        
+        cout << "Enter another integer (or -99 to quit): ";
+        cin >> num;
         
     }
     
