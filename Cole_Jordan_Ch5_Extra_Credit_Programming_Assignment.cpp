@@ -16,8 +16,8 @@ int main()
     cout << "Enter an integer (or -99 to quit): ";
     cin >> num;
     
-    //Input validation to allow the user to quit.
-    //Also, store largest and smallest numbers entered into correct variable.
+    //Input validation to allow the user to quit
+    //Also, store largest and smallest numbers entered into correct variable
     while (num != -99)
     {
         cout << "Enter another integer (or -99 to quit): ";
@@ -34,7 +34,7 @@ int main()
         
     }
     
-    //Display the largest and smallest user inputs.
+    //Display the largest and smallest user inputs
     cout << endl;
     cout << "The largest number you entered was " << largest << "." << endl;
     cout << "The smallest number you entered was " << smallest << "." << endl;
